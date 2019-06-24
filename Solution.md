@@ -10,3 +10,8 @@
 
 ## 04 - Median of Two Sorted Arrays
 二分查找，最优思路采取LeetCode推荐解法，详见程序注释
+
+## 05 - Longest Palindromic Substring
+
+## 06 - ZigZag Conversion
+字符串之字形变换，观察规律，按照字符串下标顺序获取字符
