@@ -12,6 +12,12 @@
 二分查找，最优思路采取LeetCode推荐解法，详见程序注释
 
 ## 05 - Longest Palindromic Substring
+最长回文串，经典解法 *Manacher算法*
+
+推荐blog：[Manacher算法的详细讲解](https://www.jianshu.com/p/116aa58b7d81)
 
 ## 06 - ZigZag Conversion
 字符串之字形变换，观察规律，按照字符串下标顺序获取字符
+
+## 07 - Reverse Integer
+翻转整型，通过余数翻转，注意不超过Integer边界值
