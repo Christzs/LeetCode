@@ -21,3 +21,8 @@
 
 ## 07 - Reverse Integer
 翻转整型，通过余数翻转，注意不超过Integer边界值
+
+## 08 - String to Integer
+  - 字符串转整型，遍历字符串确认符号以及合法性
+
+  - 针对合法整型逐位计算
