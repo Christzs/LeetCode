@@ -1,6 +1,4 @@
-package Hard;
-
-import java.util.ArrayList;
+package hard;
 
 /**
  * @Description

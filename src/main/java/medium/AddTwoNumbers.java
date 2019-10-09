@@ -1,4 +1,4 @@
-package Medium;
+package medium;
 
 /**
  * @Description
