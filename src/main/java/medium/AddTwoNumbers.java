@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 02 AddTwoNumbers
  *

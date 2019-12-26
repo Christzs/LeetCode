@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 11 Container With Most Water
  *

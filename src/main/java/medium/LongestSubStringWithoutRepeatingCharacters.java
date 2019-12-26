@@ -4,7 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Description
  *
  * 03 Longest Substring Without Repeating Characters
  *

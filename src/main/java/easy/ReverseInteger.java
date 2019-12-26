@@ -1,7 +1,6 @@
 package easy;
 
 /**
- * @Description
  *
  * 07 Reverse Integer
  *

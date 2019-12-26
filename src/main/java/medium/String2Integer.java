@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 08 String to Integer (atoi)
  *
