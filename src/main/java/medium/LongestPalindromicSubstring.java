@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 05 Longest Palindromic Substring
  *

@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 12 Integer to Roman
  *

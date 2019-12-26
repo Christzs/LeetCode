@@ -3,7 +3,6 @@ package medium;
 import java.util.*;
 
 /**
- * @Description
  *
  * 14 3Sum
  *

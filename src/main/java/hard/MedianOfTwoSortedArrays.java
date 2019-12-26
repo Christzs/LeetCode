@@ -1,7 +1,6 @@
 package hard;
 
 /**
- * @Description
  *
  * 03 Longest Substring Without Repeating Characters
  *

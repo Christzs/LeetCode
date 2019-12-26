@@ -1,7 +1,6 @@
 package easy;
 
 /**
- * @Description
  *
  * 09 Palindrome Number
  *

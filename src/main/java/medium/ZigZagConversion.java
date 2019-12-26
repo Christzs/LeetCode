@@ -1,7 +1,6 @@
 package medium;
 
 /**
- * @Description
  *
  * 06 ZigZag Conversion
  *

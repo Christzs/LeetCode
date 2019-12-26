@@ -1,7 +1,6 @@
 package easy;
 
 /**
- * @Description
  *
  * 14 Longest Common Prefix
  *
