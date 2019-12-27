@@ -1,4 +1,4 @@
-package medium;
+package com.leetcode.problem.medium;
 
 /**
  *

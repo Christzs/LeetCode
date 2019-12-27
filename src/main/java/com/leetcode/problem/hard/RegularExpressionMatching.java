@@ -1,4 +1,4 @@
-package hard;
+package com.leetcode.problem.hard;
 
 /**
  * Given an input string (s) and a pattern (p)

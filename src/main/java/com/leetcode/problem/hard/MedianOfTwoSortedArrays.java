@@ -1,4 +1,4 @@
-package hard;
+package com.leetcode.problem.hard;
 
 /**
  *
