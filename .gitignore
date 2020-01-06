@@ -2,6 +2,7 @@
 .project
 .settings
 
+output/
 target
 /test/
 

@@ -1,6 +1,8 @@
 package com.leetcode.problem.easy;
 
 
+import com.leetcode.problem.structure.ListNode;
+
 /**
  * 21. Merge Two Sorted Lists
  *

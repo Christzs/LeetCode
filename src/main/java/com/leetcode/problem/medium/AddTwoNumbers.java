@@ -1,5 +1,7 @@
 package com.leetcode.problem.medium;
 
+import com.leetcode.problem.structure.ListNode;
+
 /**
  *
  * 02 AddTwoNumbers
@@ -14,18 +16,6 @@ package com.leetcode.problem.medium;
  * Output: (7 -> 0 -> 8)
  *
  */
-
-class ListNode {
-
-    int val;
-
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-}
 
 public class AddTwoNumbers {
 
