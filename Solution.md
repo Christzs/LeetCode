@@ -1,34 +1,37 @@
 ## 01 - Two Sum
-利用HashMap将查找时间由`O(n)`降至`O(1)`
+- 解法：利用HashMap将查找时间由`O(n)`降至`O(1)`
 
 ## 02 - Add Two Numbers
-遍历链表，注意两数相加的进位问题
+- 解法：遍历链表，注意两数相加的进位问题
 
 ## 03 - Longest SubString Without Repeating Characters
- - 滑动窗口判断最长子串，HashMap存储字符下标
+ - 解法：滑动窗口判断最长子串，HashMap存储字符下标
  - 遇到重复字符且，窗口左侧滑动至重复字符右侧，但需保证查询得到的下标位于当前窗口内
 
 ## 04 - Median of Two Sorted Arrays
-二分查找，最优思路采取LeetCode推荐解法，详见程序注释
+- 解法：二分查找，最优思路采取LeetCode推荐解法，详见程序注释
 
 ## 05 - Longest Palindromic Substring
-最长回文串，经典解法 *Manacher算法*
+- 解法：最长回文串，经典解法 *Manacher算法*
 
 推荐blog：[Manacher算法的详细讲解](https://www.jianshu.com/p/116aa58b7d81)
 
 ## 06 - ZigZag Conversion
-字符串之字形变换，观察规律，按照字符串下标顺序获取字符
+- 解法：字符串之字形变换，观察规律，按照字符串下标顺序获取字符
 
 ## 07 - Reverse Integer
-翻转整型，通过余数翻转，注意不超过Integer边界值
+- 解法：翻转整型，通过余数翻转，注意不超过Integer边界值
 
 ## 08 - String to Integer
-- 字符串转整型，遍历字符串确认符号以及合法性
-
-- 针对合法整型逐位计算
+- 解法：字符串转整型，遍历字符串确认符号以及合法性，针对合法整型逐位计算
   
 ## 09 - Palindrome Number
-判断回文数字，最优思路采取LeetCode推荐解法，详见程序注释
+判断回文数字
+- 解法：最优思路采取LeetCode推荐解法，详见程序注释
+
+## 10 - Regular Expression Matching
+正则匹配
+- 解法：TODO: 待解决，动态规划
 
 ## 11 - Container With Most Water
 求坐标系两条垂直于x轴的直线所能围成的最大闭合矩形面积
@@ -76,3 +79,7 @@
 ## 20 - Valid Parentheses
 
 - 解法：利用堆栈先入后出的特点，括号匹配则弹出，不匹配返回false，遍历字符串后堆栈为空表示valid
+
+## 21 - Merge Two Sorted Lists
+
+- 解法：设置一个node结点的preHead指针，便于输出结果，重复两个链表的节点比较过程，将合适的节点插入node，当某一链表为空时，简单讲所有链表插入尾端即可
