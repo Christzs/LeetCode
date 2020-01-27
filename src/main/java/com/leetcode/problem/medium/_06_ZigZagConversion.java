@@ -21,9 +21,11 @@ package com.leetcode.problem.medium;
  *
  * Output: "PAHNAPLSIIGYIR"
  *
+ *
+ * 解法：字符串之字形变换，观察规律，按照字符串下标顺序获取字符
  */
 
-public class ZigZagConversion {
+public class _06_ZigZagConversion {
 
     public String convert(String s, int numRows) {
         if (s.equals("") || numRows <= 1) {

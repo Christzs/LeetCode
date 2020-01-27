@@ -12,9 +12,10 @@ package com.leetcode.problem.medium;
  *
  * Output: 42
  *
+ * 解法：字符串转整型，遍历字符串确认符号以及合法性，针对合法整型逐位计算
  */
 
-public class String2Integer {
+public class _08_String2Integer {
 
     public int myAtoi(String str) {
         boolean positive = true;

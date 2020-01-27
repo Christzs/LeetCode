@@ -20,8 +20,12 @@ import java.util.*;
  *   [-1, -1, 2]
  * ]
  *
+ *
+ * 解法：
+ *
+ * 两边指针向中心遍历，跳过重复数字
  */
-public class ThreeSum {
+public class _15_ThreeSum {
 
     public static List<List<Integer>> threeSum(int[] nums) {
 

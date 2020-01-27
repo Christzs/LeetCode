@@ -21,9 +21,12 @@ package com.leetcode.problem.medium;
  *
  * Output: III   IV    IX    LVIII    MCMXCIV
  *
+ *
+ * - 解法1：不断的if-else，判断对应罗马数字
+ * - 解法2：列出特殊数字，遍历特殊数字，解法见程序注释
  */
 
-public class Integer2Roman {
+public class _12_Integer2Roman {
 
     public String intToRoman(int num) {
         // 罗马数字表示，个位数不超过3位

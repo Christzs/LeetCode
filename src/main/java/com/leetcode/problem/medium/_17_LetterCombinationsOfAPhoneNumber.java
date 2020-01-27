@@ -16,12 +16,16 @@ import java.util.*;
  * Input: "23"
  * Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
  *
+ * 解法：
+ *
+ * 回溯思想，1字母连接下一组字母的方式相同，利用递归方式，终止条件为连接了所有数字下的字母
+ *
  */
 
 /**
  * 直接解法
  */
-public class LetterCombinationsOfAPhoneNumber {
+public class _17_LetterCombinationsOfAPhoneNumber {
 
     private static final HashMap<Integer, List<String>> keyBoard = new HashMap<>(8);
 

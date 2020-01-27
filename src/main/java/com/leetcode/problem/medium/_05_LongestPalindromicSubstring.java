@@ -14,9 +14,10 @@ package com.leetcode.problem.medium;
  *
  * Output: "bab"
  *
+ * 解法：最长回文串，经典解法 *Manacher算法*
  */
 
-public class LongestPalindromicSubstring {
+public class _05_LongestPalindromicSubstring {
 
     private final Character divide = '#';
 

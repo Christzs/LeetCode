@@ -18,9 +18,10 @@ package com.leetcode.problem.hard;
  *
  * Output: The median is (2 + 3) / 2 = 2.5
  *
+ * 解法：二分查找，最优思路采取LeetCode推荐解法，详见程序注释
  */
 
-public class MedianOfTwoSortedArrays {
+public class _04_MedianOfTwoSortedArrays {
 
     /**
      * 思路(LeetCode): 将两个数组nums1和nums2分别分为两个部分
@@ -100,7 +101,7 @@ public class MedianOfTwoSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = {1, 3};
         int[] nums2 = {2};
-        MedianOfTwoSortedArrays median = new MedianOfTwoSortedArrays();
+        _04_MedianOfTwoSortedArrays median = new _04_MedianOfTwoSortedArrays();
         System.out.println(median.findMedianSortedArrays(nums1, nums2));
     }
 

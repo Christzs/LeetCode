@@ -23,10 +23,15 @@ import java.util.*;
  *
  * Output:   3     4     9     58       1994
  *
+ * 规律：
+ * - Roman字符串自右向左遍历，设结果res为Roman最右边数字right
+ * - 如果，右边数字right大于左边数字left，res -= left
+ * - 如果，右边数字right不大于左边数字left，res += left
+ *
  */
 
 
-public class Roamn2Integer {
+public class _13_Roamn2Integer {
 
     private static final Map<String, Integer> ROMANS_TO_NUMS = new HashMap<String, Integer>();
 

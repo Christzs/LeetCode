@@ -14,9 +14,12 @@ package com.leetcode.problem.medium;
  *
  * Output: 49 [(2,8), (9,7)]
  *
+ * - 解法：指定左右指针从两边依次向中间移动，移动条件为 *移动较短的一边*，直至两指针相遇
+ * - 每次移动后记录面积，`maxArea = maxArea > newArea ? maxArea : newArea`
+ *
  */
 
-public class ContainerWithMostWater {
+public class _11_ContainerWithMostWater {
 
     public int maxArea(int[] height) {
         int leftIndex = 0, rightIndex = height.length - 1, maxArea = 0;

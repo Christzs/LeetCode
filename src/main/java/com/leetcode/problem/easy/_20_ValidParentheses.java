@@ -18,8 +18,12 @@ import java.util.Stack;
  *
  * Input: "([)]", "{[]}"
  * Output: false, true
+ *
+ * 解法：
+ *
+ * 利用堆栈先入后出的特点，括号匹配则弹出，不匹配返回false，遍历字符串后堆栈为空表示valid
  */
-public class ValidParentheses {
+public class _20_ValidParentheses {
 
     private static final char OPEN_PAREN = '(';
 

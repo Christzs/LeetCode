@@ -13,9 +13,11 @@ import java.util.Map;
  *
  * Output: 3    ("abc")
  *
+ * - 解法：滑动窗口判断最长子串，HashMap存储字符下标
+ * - 遇到重复字符且，窗口左侧滑动至重复字符右侧，但需保证查询得到的下标位于当前窗口内
  */
 
-public class LongestSubStringWithoutRepeatingCharacters {
+public class _03_LongestSubStringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0, left = 0, right = 0, length;

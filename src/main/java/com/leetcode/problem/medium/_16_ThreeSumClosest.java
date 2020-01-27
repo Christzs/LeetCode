@@ -18,8 +18,12 @@ import java.util.Arrays;
  *
  * Output: (-1 + 2 + 1) = 2
  *
+ * 解法：
+ *
+ * 排序数组，从头遍历，通过双指针寻找并计算三数之和
+ *
  */
-public class ThreeSumClosest {
+public class _16_ThreeSumClosest {
 
     public int threeSumClosest(int[] nums, int target) {
         int len = nums.length, res = Integer.MIN_VALUE;

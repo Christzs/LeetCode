@@ -1,8 +1,10 @@
 package com.leetcode.problem.medium;
 
+import com.leetcode.problem.assist.ListNode;
+
 /**
  *
- * 02 AddTwoNumbers
+ * 02 _02_AddTwoNumbers
  *
  * You are given two non-empty linked lists representing two non-negative integers
  * The digits are stored in reverse order and each of their nodes contain a single digit
@@ -13,21 +15,12 @@ package com.leetcode.problem.medium;
  *
  * Output: (7 -> 0 -> 8)
  *
+ * 解法：遍历链表，注意两数相加的进位问题
  */
 
-class ListNode {
 
-    int val;
 
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-}
-
-public class AddTwoNumbers {
+public class _02_AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {

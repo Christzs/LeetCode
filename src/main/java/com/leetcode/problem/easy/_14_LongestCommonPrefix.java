@@ -14,8 +14,12 @@ package com.leetcode.problem.easy;
  *
  * Output: "fl"
  *
+ *
+ * 解法：
+ *
+ * 遍历字符串数组，依次两两寻找字符串共有前缀，直至两两字符串不拥有共同前缀或遍历结束
  */
-public class LongestCommonPrefix {
+public class _14_LongestCommonPrefix {
 
     private static final String EMPTY_STRING = "";
 
