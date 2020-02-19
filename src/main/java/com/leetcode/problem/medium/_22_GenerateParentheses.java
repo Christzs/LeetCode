@@ -11,6 +11,7 @@ import java.util.List;
  * write a function to generate all combinations of well-formed parentheses.
  *
  *
+ * 解法：回溯法
  */
 public class _22_GenerateParentheses {
 
@@ -22,18 +23,22 @@ public class _22_GenerateParentheses {
 
     }
 
-    private void getRes(List<String> res, String cur, int open, int close, int len) {
+    private void getRes(List<String> res, String cur, int open, int close, int n) {
 
-        if (cur.length() == len * 2) {
+        // 长度为2n时返回
+        if (cur.length() == n * 2) {
             res.add(cur);
             return;
         }
 
-        if (open < len) {
-            getRes(res, cur + "(", open + 1, close, len);
+        // 左括号仍可配对
+        if (open < n) {
+            getRes(res, cur + "(", open + 1, close, n);
         }
+
+        // 保证右括号数量等于左括号数量
         if (close < open) {
-            getRes(res, cur + ")", open, close + 1, len);
+            getRes(res, cur + ")", open, close + 1, n);
         }
     }
 

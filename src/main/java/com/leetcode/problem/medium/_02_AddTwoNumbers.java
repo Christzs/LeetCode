@@ -1,6 +1,6 @@
 package com.leetcode.problem.medium;
 
-import com.leetcode.problem.assist.ListNode;
+import com.leetcode.problem.ListNode;
 
 /**
  *

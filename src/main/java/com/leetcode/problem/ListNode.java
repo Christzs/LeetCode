@@ -1,4 +1,4 @@
-package com.leetcode.problem.assist;
+package com.leetcode.problem;
 
 /**
  * @author zst
