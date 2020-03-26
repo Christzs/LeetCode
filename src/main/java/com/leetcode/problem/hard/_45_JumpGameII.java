@@ -25,6 +25,7 @@ public class _45_JumpGameII {
             // 贪心算法, 寻找能够跳的最远的位置
             maxJump = Math.max(maxJump, nums[i] + i);
             if (i == end) {
+                // 已到达可跳跃的最原位置，步数加一
                 end = maxJump;
                 res++;
             }
