@@ -60,14 +60,5 @@ public class _47_Permutations2 {
         }
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,1,2};
-        _47_Permutations2 permutations2 = new _47_Permutations2();
-        permutations2.res = permutations2.permute(nums);
-        for (List list : permutations2.res) {
-            System.out.println(((ArrayList)list).toString());
-        }
-    }
-
 
 }
