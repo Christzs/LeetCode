@@ -23,12 +23,17 @@ public class _13_RangeMotionOfRobot {
         while (!queue.isEmpty()) {
             int[] poll = queue.poll();
             count++;
+            // 向右搜索
+            // 满足index不超出边界、数位和小于k且未访问过
             if (poll[0] + 1 < m
                     && sumOfDigit(poll[0] + 1) + sumOfDigit(poll[1]) <= k
                     && !visited[poll[0] + 1][poll[1]]) {
+                // 加入搜索队列
                 queue.add(new int[]{poll[0] + 1, poll[1]});
+                // 置为已访问
                 visited[poll[0] + 1][poll[1]] = true;
             }
+            // 向上搜索
             if (poll[1] + 1 < n
                     && sumOfDigit(poll[0]) + sumOfDigit(poll[1] + 1) <= k
                     && !visited[poll[0]][poll[1] + 1]) {
