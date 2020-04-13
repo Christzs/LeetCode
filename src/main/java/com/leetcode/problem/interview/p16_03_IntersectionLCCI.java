@@ -1,4 +1,4 @@
-package com.leetcode.problem.hard;
+package com.leetcode.problem.interview;
 
 /**
  * 16.03. Intersection LCCI
