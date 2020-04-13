@@ -22,7 +22,7 @@ package com.leetcode.problem.interview;
  * 1,0 1,1 1,2
  * 2,0 2,1 2,2
  */
-public class _01_07_RotateMatrixLCCI {
+public class p01_07_RotateMatrixLCCI {
 
     public void rotate(int[][] matrix) {
         int N = matrix.length;

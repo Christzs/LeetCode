@@ -4,7 +4,7 @@ import com.leetcode.problem.ListNode;
 
 /**
  *
- * 02 _02_AddTwoNumbers
+ * 02 p02_AddTwoNumbers
  *
  * You are given two non-empty linked lists representing two non-negative integers
  * The digits are stored in reverse order and each of their nodes contain a single digit
@@ -20,7 +20,7 @@ import com.leetcode.problem.ListNode;
 
 
 
-public class _02_AddTwoNumbers {
+public class p02_AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null) {

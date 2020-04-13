@@ -15,7 +15,7 @@ import java.util.Stack;
  *  2 ==> "()"
  *
  */
-public class _32_LongestValidParentheses {
+public class p32_LongestValidParentheses {
 
     private static final char OPEN_PAREN = '(';
 

@@ -21,7 +21,7 @@ import java.util.List;
  *
  *
  */
-public class _30_SubstringWithConcatenationOfAllWords {
+public class p30_SubstringWithConcatenationOfAllWords {
 
     public List<Integer> findSubstring(String s, String[] words) {
 

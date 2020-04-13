@@ -2,7 +2,6 @@ package com.leetcode.problem.medium;
 
 import java.util.*;
 
-import static java.lang.System.in;
 import static java.lang.System.out;
 
 /**
@@ -17,7 +16,7 @@ import static java.lang.System.out;
  * Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
  *
  */
-public class _56_MergeIntervals {
+public class p56_MergeIntervals {
 
     public int[][] merge(int[][] intervals) {
 
@@ -86,7 +85,7 @@ public class _56_MergeIntervals {
     }
 
     public static void main(String[] args) {
-        _56_MergeIntervals mergeIntervals = new _56_MergeIntervals();
+        p56_MergeIntervals mergeIntervals = new p56_MergeIntervals();
         int[][] input = new int[][]{{2, 3}, {4, 5}, {6, 7}, {3, 4}};
 //        int[][] input = new int[][]{{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         mergeIntervals.merge(input);

@@ -15,7 +15,7 @@ import java.util.List;
  * empty() -- Return whether the stack is empty.
  *
  */
-public class _225_ImplementStackUsingQueues {
+public class p225_ImplementStackUsingQueues {
 
     /**
      * Your MyStack object will be instantiated and called as such:

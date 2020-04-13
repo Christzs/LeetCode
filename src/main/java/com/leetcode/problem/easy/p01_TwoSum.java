@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  *
- * 01 _01_TwoSum
+ * 01 p01_TwoSum
  *
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target
  * You may assume that each input would have exactly one solution, and you may not use the same element twice
@@ -19,7 +19,7 @@ import java.util.Map;
  * 解法：利用HashMap将查找时间由`O(n)`降至`O(1)`
  */
 
-class _01_TwoSum {
+class p01_TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> cache = new HashMap<Integer, Integer>();

@@ -12,7 +12,7 @@ package com.leetcode.problem.medium;
  * If the target is not found in the array, return [-1, -1].
  *
  */
-public class _34_FindFirstAndLastPositionOfElementInSortedArray {
+public class p34_FindFirstAndLastPositionOfElementInSortedArray {
 
     public int[] searchRange(int[] nums, int target) {
 

@@ -16,7 +16,7 @@ package com.leetcode.problem.easy;
  *
  *
  */
-public class _38_CountAndSay {
+public class p38_CountAndSay {
 
     public String countAndSay(int n) {
         if (n == 1) {
@@ -40,7 +40,7 @@ public class _38_CountAndSay {
     }
 
     public static void main(String[] args) {
-        _38_CountAndSay countAndSay = new _38_CountAndSay();
+        p38_CountAndSay countAndSay = new p38_CountAndSay();
         System.out.println(countAndSay.countAndSay(5));
     }
 }

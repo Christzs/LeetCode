@@ -23,7 +23,7 @@ import com.leetcode.problem.ListNode;
  * 将合适的节点插入node，当某一链表为空时，简单讲所有链表插入尾端即可
  */
 
-public class _21_MergeTwoSortedLists {
+public class p21_MergeTwoSortedLists {
 
 
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

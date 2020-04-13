@@ -17,7 +17,7 @@ import java.util.*;
  *
  *
  */
-public class _460_LFUCache {
+public class p460_LFUCache {
 
     class LFUCache {
 
@@ -181,7 +181,7 @@ public class _460_LFUCache {
     }
 
     public static void main(String[] args) {
-        LFUCache lfuCache = new _460_LFUCache().new LFUCache(2);
+        LFUCache lfuCache = new p460_LFUCache().new LFUCache(2);
 
         lfuCache.get(2);
         lfuCache.put(1, 1);

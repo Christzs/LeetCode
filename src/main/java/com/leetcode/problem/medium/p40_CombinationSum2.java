@@ -6,7 +6,7 @@ import java.util.*;
  * @author zst
  * @date 2020-03-18
  */
-public class _40_CombinationSum2 {
+public class p40_CombinationSum2 {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
 

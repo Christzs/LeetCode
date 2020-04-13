@@ -10,7 +10,7 @@ import static java.lang.System.out;
  * Output: "blue is sky the
  *
  */
-public class _151_ReverseWordsInAString {
+public class p151_ReverseWordsInAString {
 
     public static String reverseWords(String s) {
         if (s == null || "".equals(s)) {

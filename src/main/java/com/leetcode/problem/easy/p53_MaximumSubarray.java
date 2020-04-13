@@ -11,7 +11,7 @@ package com.leetcode.problem.easy;
  * Explanation: [4,-1,2,1] has the largest sum = 6.
  *
  */
-public class _53_MaximumSubarray {
+public class p53_MaximumSubarray {
 
     public static int maxSubArray(int[] nums) {
         int ans = nums[0];

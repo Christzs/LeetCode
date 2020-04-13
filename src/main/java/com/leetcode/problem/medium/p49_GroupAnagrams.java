@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  *
  *
  */
-public class _49_GroupAnagrams {
+public class p49_GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strs) {
 

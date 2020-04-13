@@ -13,7 +13,7 @@ package com.leetcode.problem.easy;
  * 5 -> 0, 1, 2, 3, 4
  *
  */
-public class _26_RemoveDuplicatesFromSortedArray {
+public class p26_RemoveDuplicatesFromSortedArray {
 
     public int removeDuplicates(int[] nums) {
 
@@ -38,7 +38,7 @@ public class _26_RemoveDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
         int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};
-        _26_RemoveDuplicatesFromSortedArray sortedArray = new _26_RemoveDuplicatesFromSortedArray();
+        p26_RemoveDuplicatesFromSortedArray sortedArray = new p26_RemoveDuplicatesFromSortedArray();
         System.out.println(sortedArray.removeDuplicates(nums));
     }
 

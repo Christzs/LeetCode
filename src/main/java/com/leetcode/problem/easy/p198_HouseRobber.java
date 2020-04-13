@@ -16,7 +16,7 @@ import java.util.concurrent.locks.StampedLock;
  *              Total amount you can rob = 1 + 3 = 4.
  *
  */
-public class _198_HouseRobber {
+public class p198_HouseRobber {
 
     public int rob(int[] nums) {
 //        int len = nums.length;

@@ -11,7 +11,7 @@ package com.leetcode.problem.easy;
  * Input: "Hello World"
  * Output: 5
  */
-public class _58_LengthOfLastWord {
+public class p58_LengthOfLastWord {
 
     public int lengthOfLastWord(String s) {
 

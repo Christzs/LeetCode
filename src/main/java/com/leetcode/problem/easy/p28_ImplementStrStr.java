@@ -11,7 +11,7 @@ package com.leetcode.problem.easy;
  * output:
  * -1
  */
-public class _28_ImplementStrStr {
+public class p28_ImplementStrStr {
 
     public int strStr(String haystack, String needle) {
         if ("".equals(needle)) {

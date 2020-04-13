@@ -17,7 +17,7 @@ import java.util.Map;
  * - 遇到重复字符且，窗口左侧滑动至重复字符右侧，但需保证查询得到的下标位于当前窗口内
  */
 
-public class _03_LongestSubStringWithoutRepeatingCharacters {
+public class p03_LongestSubStringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0, left = 0, right = 0, length;

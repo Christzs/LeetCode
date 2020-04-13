@@ -12,7 +12,7 @@ import java.util.Queue;
  * 但它不能进入方格 [35, 38]，因为3+5+3+8=19。请问该机器人能够到达多少个格子？
  *
  */
-public class _13_RangeMotionOfRobot {
+public class p13_RangeMotionOfRobot {
 
     public int movingCount(int m, int n, int k) {
         Queue<int[]> queue = new ArrayDeque<>();

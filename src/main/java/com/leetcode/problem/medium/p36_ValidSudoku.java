@@ -14,7 +14,7 @@ import java.util.HashMap;
  * Each of the 9 3x3 sub-boxes of the grid must contain the digits 1-9 without repetition.
  *
  */
-public class _36_ValidSudoku {
+public class p36_ValidSudoku {
 
     public boolean isValidSudoku(char[][] board) {
 

@@ -19,7 +19,7 @@ import java.util.List;
  *
  * 每次循环固定一个数字，变换为三数之和，获得结果后继续遍历，遇到相同数字跳过避免重复
  */
-public class _18_FourSum {
+public class p18_FourSum {
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();

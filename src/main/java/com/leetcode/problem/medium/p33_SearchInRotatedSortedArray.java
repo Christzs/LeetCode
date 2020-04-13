@@ -15,7 +15,7 @@ package com.leetcode.problem.medium;
  *
  * Your algorithm's runtime complexity must be in the order of O(log n).
  */
-public class _33_SearchInRotatedSortedArray {
+public class p33_SearchInRotatedSortedArray {
 
     public int search(int[] nums, int target) {
 

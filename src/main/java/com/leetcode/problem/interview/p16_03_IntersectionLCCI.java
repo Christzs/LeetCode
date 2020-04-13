@@ -15,7 +15,7 @@ package com.leetcode.problem.interview;
  * Output:
  *  {0.5, 0}
  */
-public class _16_03_IntersectionLCCI {
+public class p16_03_IntersectionLCCI {
 
     /**
      * y = a1x + b1

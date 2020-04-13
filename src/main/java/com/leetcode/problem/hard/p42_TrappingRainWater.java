@@ -8,7 +8,7 @@ package com.leetcode.problem.hard;
  * Input: [0,1,0,2,1,0,1,3,2,1,2,1]
  * Output: 6
  */
-public class _42_TrappingRainWater {
+public class p42_TrappingRainWater {
 
     public int trap(int[] height) {
 

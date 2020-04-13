@@ -17,7 +17,7 @@ package com.leetcode.problem.easy;
  * 解法：最优思路采取LeetCode推荐解法，详见程序注释
  */
 
-public class _09_PalindromeNumber {
+public class p09_PalindromeNumber {
 
     public static boolean isPalindrome(int x) {
 

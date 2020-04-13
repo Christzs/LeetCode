@@ -35,7 +35,7 @@ package com.leetcode.problem.medium;
  * 解法: 赋予变化后的细胞额外的状态，可以省去额外创建的判断数组
  *
  */
-public class _289_GameOfLife {
+public class p289_GameOfLife {
 
     private int m;
 

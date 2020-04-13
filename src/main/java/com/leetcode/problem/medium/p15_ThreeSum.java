@@ -25,7 +25,7 @@ import java.util.*;
  *
  * 两边指针向中心遍历，跳过重复数字
  */
-public class _15_ThreeSum {
+public class p15_ThreeSum {
 
     public static List<List<Integer>> threeSum(int[] nums) {
 

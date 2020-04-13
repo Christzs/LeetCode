@@ -24,7 +24,7 @@ import java.util.Stack;
  * 每次翻转结构相同，采用递归方式
  * 当不足k个时按照原排序返回，停止递归
  */
-public class _25_ReverseNodesInKGroup {
+public class p25_ReverseNodesInKGroup {
 
     public ListNode reverseKGroup(ListNode head, int k) {
 

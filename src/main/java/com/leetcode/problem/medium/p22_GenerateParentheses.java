@@ -13,7 +13,7 @@ import java.util.List;
  *
  * 解法：回溯法
  */
-public class _22_GenerateParentheses {
+public class p22_GenerateParentheses {
 
     public List<String> generateParenthesis(int n) {
 

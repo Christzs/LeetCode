@@ -9,7 +9,7 @@ package com.leetcode.problem.easy;
  *
  * You may assume no duplicates in the array.
  */
-public class _35_SearchInsertPosition {
+public class p35_SearchInsertPosition {
 
     public int searchInsert(int[] nums, int target) {
         if (nums.length == 0) {

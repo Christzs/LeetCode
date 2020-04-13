@@ -21,7 +21,7 @@ package com.leetcode.problem.medium;
  *   [9,6,3]
  * ]
  */
-public class _48_RotateImage {
+public class p48_RotateImage {
 
     public void rotate(int[][] matrix) {
 

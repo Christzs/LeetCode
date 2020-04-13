@@ -15,7 +15,7 @@ package com.leetcode.problem.medium;
  * ]
  *
  */
-public class _59_SpiralMatrix2 {
+public class p59_SpiralMatrix2 {
 
     public static int[][] generateMatrix(int n) {
 

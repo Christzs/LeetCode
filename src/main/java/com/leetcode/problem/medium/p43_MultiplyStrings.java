@@ -9,7 +9,7 @@ package com.leetcode.problem.medium;
  * Input: num1 = "123", num2 = "456"
  * Output: "56088"
  */
-public class _43_MultiplyStrings {
+public class p43_MultiplyStrings {
 
 
     public String multiply(String num1, String num2) {
@@ -58,7 +58,7 @@ public class _43_MultiplyStrings {
 
     public static void main(String[] args) {
 
-        _43_MultiplyStrings multiplyStrings = new _43_MultiplyStrings();
+        p43_MultiplyStrings multiplyStrings = new p43_MultiplyStrings();
 
         System.out.println(multiplyStrings.multiply("123", "456"));
     }

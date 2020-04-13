@@ -10,7 +10,7 @@ package com.leetcode.problem.medium;
  * The replacement must be in-place and use only constant extra memory.
  *
  */
-public class _31_NextPermutation {
+public class p31_NextPermutation {
 
     public void nextPermutation(int[] nums) {
         if (nums.length > 1) {

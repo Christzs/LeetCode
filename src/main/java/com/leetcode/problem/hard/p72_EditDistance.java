@@ -18,7 +18,7 @@ package com.leetcode.problem.hard;
  * rorse -> rose (remove 'r')
  * rose -> ros (remove 'e')
  */
-public class _72_EditDistance {
+public class p72_EditDistance {
 
     /**
      * i指向word1，j指向word2

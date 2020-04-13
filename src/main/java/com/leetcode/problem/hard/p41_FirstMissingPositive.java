@@ -8,7 +8,7 @@ package com.leetcode.problem.hard;
  * Input: [1,2,0]
  * Output: 3
  */
-public class _41_FirstMissingPositive {
+public class p41_FirstMissingPositive {
 
     public int firstMissingPositive(int[] nums) {
         int len = nums.length;

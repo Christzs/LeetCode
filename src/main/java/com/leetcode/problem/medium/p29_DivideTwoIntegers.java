@@ -10,7 +10,7 @@ package com.leetcode.problem.medium;
  * The integer division should truncate toward zero.
  *
  */
-public class _29_DivideTwoIntegers {
+public class p29_DivideTwoIntegers {
 
     public int divide(int dividend, int divisor) {
         boolean flag = dividend < 0 ^ divisor < 0;
@@ -41,7 +41,7 @@ public class _29_DivideTwoIntegers {
     }
 
     public static void main(String[] args) {
-        _29_DivideTwoIntegers divideTwoIntegers = new _29_DivideTwoIntegers();
+        p29_DivideTwoIntegers divideTwoIntegers = new p29_DivideTwoIntegers();
         System.out.println(divideTwoIntegers.divide(2147483647, 1));
     }
 

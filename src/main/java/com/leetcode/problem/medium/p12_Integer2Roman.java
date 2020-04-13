@@ -26,7 +26,7 @@ package com.leetcode.problem.medium;
  * - 解法2：列出特殊数字，遍历特殊数字，解法见程序注释
  */
 
-public class _12_Integer2Roman {
+public class p12_Integer2Roman {
 
     public String intToRoman(int num) {
         // 罗马数字表示，个位数不超过3位

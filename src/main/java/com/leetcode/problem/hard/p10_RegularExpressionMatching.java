@@ -12,7 +12,7 @@ package com.leetcode.problem.hard;
  *
  * 解法：TODO: 待解决，动态规划
  */
-public class _10_RegularExpressionMatching {
+public class p10_RegularExpressionMatching {
 
     private static final char DEFAULT_MATCH_DOT = '.';
     private static final char DEFAULT_MATCH_STAR = '*';

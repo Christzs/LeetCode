@@ -17,7 +17,7 @@ import java.util.List;
  * ]
  * Output: [1,2,3,6,9,8,7,4,5]
  */
-public class _54_SpiralMatrix {
+public class p54_SpiralMatrix {
 
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList<>();

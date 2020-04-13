@@ -16,7 +16,7 @@ package com.leetcode.problem.medium;
  * Output: false
  *
  */
-public class _55_JumpGame {
+public class p55_JumpGame {
 
     public static boolean canJump(int[] nums) {
         int len = nums.length;

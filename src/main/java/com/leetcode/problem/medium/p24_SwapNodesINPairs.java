@@ -20,7 +20,7 @@ import com.leetcode.problem.ListNode;
  *  - 终止条件为传入的节点为空(偶数), 或者传入节点的下一个节点为空(奇数)
  *
  */
-public class _24_SwapNodesINPairs {
+public class p24_SwapNodesINPairs {
 
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) {

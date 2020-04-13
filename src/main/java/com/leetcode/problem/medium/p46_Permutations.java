@@ -18,7 +18,7 @@ import java.util.*;
  *   [3,2,1]
  * ]
  */
-public class _46_Permutations {
+public class p46_Permutations {
 
     private List<List<Integer>> res;
 

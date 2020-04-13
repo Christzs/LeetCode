@@ -24,7 +24,7 @@ import com.leetcode.problem.TreeNode;
  * Explanation: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
  *
  */
-public class _337_HouseRobber3 {
+public class p337_HouseRobber3 {
 
     public int rob(TreeNode root) {
 

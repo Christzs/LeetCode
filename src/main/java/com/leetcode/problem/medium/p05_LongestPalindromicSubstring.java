@@ -17,7 +17,7 @@ package com.leetcode.problem.medium;
  * 解法：最长回文串，经典解法 *Manacher算法*
  */
 
-public class _05_LongestPalindromicSubstring {
+public class p05_LongestPalindromicSubstring {
 
     private final Character divide = '#';
 

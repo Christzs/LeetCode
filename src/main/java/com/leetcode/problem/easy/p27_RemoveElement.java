@@ -11,7 +11,7 @@ package com.leetcode.problem.easy;
  * output:
  * 5 -> 0, 1, 3, 0, 4
  */
-public class _27_RemoveElement {
+public class p27_RemoveElement {
 
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
@@ -27,7 +27,7 @@ public class _27_RemoveElement {
     public static void main(String[] args) {
         int[] nums = new int[]{0,1,2,2,3,0,4,2};
         int val = 2;
-        _27_RemoveElement removeElement = new _27_RemoveElement();
+        p27_RemoveElement removeElement = new p27_RemoveElement();
         System.out.println(removeElement.removeElement(nums, val));
     }
 

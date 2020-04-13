@@ -10,7 +10,7 @@ import java.util.*;
  * Find all unique combinations in candidates where the candidate numbers sums to target.
  *
  */
-public class _39_CombinationSum {
+public class p39_CombinationSum {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
 

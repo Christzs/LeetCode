@@ -12,7 +12,7 @@ package com.leetcode.problem.hard;
  * Input: [2,3,1,1,4]
  * Output: 2
  */
-public class _45_JumpGameII {
+public class p45_JumpGameII {
 
     public int jump(int[] nums) {
         if (nums.length == 0) {

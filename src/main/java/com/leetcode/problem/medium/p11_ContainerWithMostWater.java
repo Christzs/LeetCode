@@ -19,7 +19,7 @@ package com.leetcode.problem.medium;
  *
  */
 
-public class _11_ContainerWithMostWater {
+public class p11_ContainerWithMostWater {
 
     public int maxArea(int[] height) {
         int leftIndex = 0, rightIndex = height.length - 1, maxArea = 0;

@@ -17,7 +17,7 @@ import static java.lang.System.out;
  *   [2,1,1]
  * ]
  */
-public class _47_Permutations2 {
+public class p47_Permutations2 {
 
     private List<List<Integer>> res;
 

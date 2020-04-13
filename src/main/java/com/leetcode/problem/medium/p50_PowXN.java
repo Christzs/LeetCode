@@ -8,7 +8,7 @@ package com.leetcode.problem.medium;
  * Input: 2.00000, 10
  * Output: 1024.00000
  */
-public class _50_PowXN {
+public class p50_PowXN {
 
     public static double myPow(double x, int n) {
         long N = n;

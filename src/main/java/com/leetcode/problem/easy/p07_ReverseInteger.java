@@ -13,7 +13,7 @@ package com.leetcode.problem.easy;
  * 解法：翻转整型，通过余数翻转，注意不超过Integer边界值
  */
 
-public class _07_ReverseInteger {
+public class p07_ReverseInteger {
 
     public static int reverse(int x) {
         int result = 0;

@@ -22,7 +22,7 @@ import com.leetcode.problem.ListNode;
  * 比较 k 个节点（每个链表的首节点），获得最小值的节点
  * 将选中的节点接在最终有序链表的后面
  */
-public class _23_MergeKSortedList {
+public class p23_MergeKSortedList {
 
     public static ListNode mergeKLists(ListNode[] lists) {
 
