@@ -25,7 +25,7 @@ import java.util.*;
 /**
  * 直接解法
  */
-public class _17_LetterCombinationsOfAPhoneNumber {
+public class p17_LetterCombinationsOfAPhoneNumber {
 
     private static final HashMap<Integer, List<String>> keyBoard = new HashMap<>(8);
 
