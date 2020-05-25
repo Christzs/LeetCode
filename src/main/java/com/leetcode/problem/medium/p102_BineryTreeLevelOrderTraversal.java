@@ -1,7 +1,6 @@
 package com.leetcode.problem.medium;
 
 import com.leetcode.problem.TreeNode;
-import com.sun.jmx.remote.internal.ArrayQueue;
 
 import java.util.*;
 

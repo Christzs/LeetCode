@@ -1,6 +1,7 @@
 package com.leetcode.problem.easy;
 
 
+
 import com.leetcode.problem.ListNode;
 
 /**
