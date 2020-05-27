@@ -46,4 +46,10 @@ public class p287_FindTheDuplicateNumber {
         return slow;
     }
 
+    public static void main(String[] args) {
+        Integer transportId = 111;
+        String platformKey = "dddaaaaa";
+        System.out.println(String.format("进件[%d]未添加[%s]平台", transportId, platformKey));
+    }
+
 }
