@@ -1,6 +1,6 @@
 package com.leetcode.problem.medium;
 
-import com.leetcode.problem.structure.ListNode;
+import com.leetcode.problem.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
