@@ -1,5 +1,7 @@
 package com.leetcode.problem.medium;
 
+import com.leetcode.problem.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
