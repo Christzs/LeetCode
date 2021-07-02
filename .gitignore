@@ -1,7 +1,7 @@
 .idea
 .project
 .settings
-.iml
+*.iml
 
 out/
 output/
