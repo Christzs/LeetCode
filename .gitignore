@@ -1,7 +1,9 @@
 .idea
 .project
 .settings
+.iml
 
+out/
 output/
 target
 /test/
