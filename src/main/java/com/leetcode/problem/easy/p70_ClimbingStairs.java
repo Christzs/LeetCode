@@ -10,7 +10,7 @@ package com.leetcode.problem.easy;
  *
  * f(n) = f(n - 1) + f(n - 2)
  */
-public class _70_ClimbingStairs {
+public class p70_ClimbingStairs {
 
     public int climbStairs(int n) {
         int pre1 = 1, pre2 = 2;
